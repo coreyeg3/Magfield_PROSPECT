@@ -18,7 +18,7 @@ import sys
 #####################################################
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_address = ('10.78.18.71', 10000)
+server_address = ('172.16.10.1', 10000)
 print >>sys.stderr, 'starting up on %s port %s' % server_address
 
 sock.bind(server_address)
